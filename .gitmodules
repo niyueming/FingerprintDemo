@@ -1,0 +1,3 @@
+[submodule "fingerprintLibrary"]
+	path = fingerprintLibrary
+	url = https://niyueming@github.com/niyueming/fingerprintLibrary.git
