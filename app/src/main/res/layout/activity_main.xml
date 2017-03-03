@@ -48,20 +48,21 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/frameLayout">
         <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cycler"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:id="@+id/imageView2" />
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@mipmap/fingerprint"
             android:layout_margin="50dp"
             />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/cycler"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center"
-            android:id="@+id/imageView2" />
 
     </FrameLayout>
 
