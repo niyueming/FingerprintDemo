@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        >
+        android:id="@+id/frameLayout">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,5 +64,26 @@
             android:id="@+id/imageView2" />
 
     </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/frameLayout"
+        android:layout_marginTop="114dp"
+        android:layout_toLeftOf="@+id/frameLayout"
+        android:layout_toStartOf="@+id/frameLayout"
+        android:text="加密" />
+
+    <Button
+        android:id="@+id/btn_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_encrypt"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="解密" />
 
 </RelativeLayout>
